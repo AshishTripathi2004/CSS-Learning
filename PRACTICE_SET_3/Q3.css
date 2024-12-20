@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:#ffffff
+}
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+    overflow-x: auto;
+    white-space: nowrap; 
+    align-items: center; 
+    display: flex; 
+    padding: 0 20px;
+}
+button{
+    background-color: #f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+}
+.contentBox{
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:5px;
+    display: inline-block;
+    
+}
+#box1{
+    background-color: rgba(255,255,0,0.5);
+}
+#box2{
+    background-color: rgba(255,165,255,0.5);
+}
+#box3{
+    background-color: rgba(0,135,165,0.5);
+}
+
+#content{
+    height:500px;
+}
+
+footer{
+    background-color: #0f1111;
+    text-align: center;
+}
