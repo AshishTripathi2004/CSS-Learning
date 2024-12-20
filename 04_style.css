@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #e8788b;
+    padding:20px;
+    border: solid 10px;
+    margin: 10px;
+    text-align: center;
+}
+.circle{
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50% 75%;
+    margin: 15px;
+    background-color: #414141;
+}

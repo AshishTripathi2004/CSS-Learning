@@ -1,0 +1,14 @@
+#box1{
+    height:300px;
+    width:300px;
+    background-color: red;
+    font-size: 10px;
+    display: none;
+}
+
+#box2{
+    height:50%;
+    width:25vw;
+    background-color: pink;
+    font-size: 2rem;
+}

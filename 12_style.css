@@ -1,0 +1,33 @@
+#container{
+    height:300px;
+    width:600px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.colors{
+    height:100px;
+}
+#saffron {
+    background-color: #FF671F;
+}
+
+#green {
+    background-color: #046A38;
+}
+#white{
+    background-color: #ffffff;
+    position: relative;
+}
+#chakra {
+    height: 70px;
+    width: 70px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/800px-Ashoka_Chakra.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the Ashoka Chakra */
+}

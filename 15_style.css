@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation-name:MoveAndCol;
+    animation-duration:4s;
+    animation-iteration-count: 3;
+    animation-timing-function: steps(10);
+    animation-delay: 1ms;
+    animation-direction: alternate;
+}
+
+@keyframes colAnimate{
+    from{background-color:red}
+    to{background-color: pink;}
+}
+@keyframes MoveAndCol{
+    from{translate: 100px;}
+    to{translate: 200px;}
+    
+    0%{background-color:yellow;}
+    50%{background-color: orange;;}
+    100%{background-color: red;}
+}

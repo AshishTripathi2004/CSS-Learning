@@ -1,0 +1,22 @@
+/*UNIVERSAL SELECTOR*/
+/*applies to all the parts of the web-page universally*/
+*{
+    background-color: #414141;
+}
+/*ELEMENT SELECTOR*/
+body{
+    color: #ffffff;
+}
+h1{
+    text-align: center;
+    text-decoration: wavy;
+}
+/*CLASS SELECTOR*/
+.myClass{
+    font-weight: lighter;
+    color:#ffff00
+}
+/*ID SELECTOR*/
+#myID{
+    color:#0000ff;
+}

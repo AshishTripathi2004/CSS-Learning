@@ -1,0 +1,14 @@
+/*selectors-->could be tags or class or id*/
+body{
+    /*property-value pairs*/
+    color: #ffffff;
+    background-color: #414141;
+}
+h1{
+    text-align: center;
+}
+button{
+    color: #000000;
+    font-weight: bolder;
+    background-color: rgba(0,0,255,0.5);
+}

@@ -1,0 +1,25 @@
+div{
+    height:100px;
+    width:100px;
+    color:black;
+    background-color: #f08000;
+    font-size:20px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: 10ms;
+    transition-timing-function: ease-in-out;
+} 
+div:hover{
+    height: 150px;
+    width:150px;
+    color:white;
+    background-color: #1b1f1b;
+    font-size:30px;
+}
+div:active{
+    background-color: rgb(255, 0, 44);
+    color: white;
+    transform:translate(200px,200px);
+
+}
