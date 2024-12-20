@@ -1,0 +1,16 @@
+:root{
+    --main-color: #414141;
+    --link-color:#ed4141;
+    --para-color:#eded00;
+    --text-decor-style: wavy;
+}
+a{
+    color:var(--link-color);
+    text-decoration: underline var(--text-decor-style);
+}
+body{
+    background-color:var(--main-color);
+}
+p{
+    color:var(--para-color);
+}
